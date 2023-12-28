@@ -1,0 +1,77 @@
+/* styles.css */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8f9fa; /* Light background color for the entire page */
+}
+
+/* Custom styles for the navbar */
+.navbar-container {
+  background-color: #343a40; /* Dark background color for the navbar */
+  margin-bottom: 20px;
+}
+
+.navbar-nav {
+  text-align: center;
+}
+
+.navbar-nav .nav-link {
+  color: #fff;
+  margin: 0 10px;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #f8f9fa;
+}
+
+/* Custom styles for the main content */
+.app {
+  background-color: #ffffff; /* White background color for the main content */
+  padding-bottom: 20px;
+  border-radius: 10px; /* Rounded corners for the main content */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift effect */
+}
+
+/* Custom styles for project containers */
+.rb-section {
+  margin-bottom: 30px;
+}
+
+.project-row{
+  display: flex;
+  justify-content: space-between;
+}
+
+.rb-project {
+  margin-bottom: 20px;
+  background-color: #f8f9fa; /* Light background color for project containers */
+  padding: 20px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+}
+
+.project-description {
+  overflow: auto;
+  text-overflow: ellipsis;
+  max-height: 120px;
+}
+
+/* Custom styles for the footer */
+.rb-footer {
+  background-color: #343a40; /* Dark background color for the footer */
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 20px;
+  border-top: 1px solid #fff; /* Border to separate footer from content */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .navbar-nav {
+    justify-content: center; /* Center align navbar links on small screens */
+  }
+}
