@@ -70,7 +70,7 @@ const own_projects = [
     name: 'Portfolio-website',
     description: "Written by ReactJs to showcase the list of projects done in a 'previous company and on recent own'",
     technology: "ReactJs",
-    link: 'https://user-reviews-html-dom-vanilla-js.netlify.app/',
+    link: 'https://mohanrajs-portfolio-site.netlify.app/',
   },
 
   // Add more projects as needed
