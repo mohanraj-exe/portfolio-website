@@ -32,31 +32,31 @@ const projects = [
 const own_projects = [
   {
     id: 1,
-    name: 'User-Reviews',
-    description: "Written Basic HTML, CSS and Vanilla Js code to display review contents for a user by clicking forward, backward and randomly by pressing and a 'surprise me' button",
-    technology: "Vanilla Javascript, HTML, CSS",
-    link: 'https://user-reviews-html-dom-vanilla-js.netlify.app/',
+    name: 'Responsive layout-For small, medium and larger screen devices.',
+    description: "Written Basic HTML, CSS and Vanilla Js code to display contents and toggle button included to display nav bar options in smaller and medium screen devices.",
+    technology: "HTML, CSS, Vanilla Javascript",
+    link: 'https://final-responsive-layout-challenge-crl.netlify.app/',
   },
   {
     id: 2,
-    name: 'Color-flipper',
-    description: "Written Basic HTML, CSS and Vanilla Js code to display basic and dynamic hex colors. These hex colors are dynamically created by basic numbers '0' to '9' and alphabets from 'a' to 'f' initializing it an array and adding Js functionalities to create one and append it in a html element for displaying.",
-    technology: "Vanilla Javascript, HTML, CSS",
-    link: 'https://color-flipper-html-dom-vanillajs.netlify.app/',
+    name: 'Controlled forms-Functional react components',
+    description: "CRUD operations in form and populating that data in a table aside form",
+    technology: "ReactJs",
+    link: 'https://controlled-form-functional-components.netlify.app/',
   },
   {
     id: 3,
-    name: 'Numbers Counter',
-    description: "Written Basic HTML, CSS and Vanilla Js code to display numbers by clicking 'increase', 'decrease' and 'reset' button",
-    technology: "Vanilla Javascript, HTML, CSS",
-    link: 'https://nubmers-counter-html-dom-vanilla-js.netlify.app/',
+    name: 'Portfolio-website',
+    description: "Written by ReactJs to showcase the list of projects done in a 'previous company and on recent own'",
+    technology: "ReactJs",
+    link: 'https://mohanrajs-portfolio-site.netlify.app/',
   },
   {
     id: 4,
-    name: 'Numbers Counter - ReactJs',
-    description: "Written ReactJs code to display numbers by clicking 'increment', 'decrement' and 'reset' button using both 'Class' and 'Functional' reactjs component",
-    technology: "React Js",
-    link: 'https://numbers-counter-reactjs.netlify.app/',
+    name: 'Redux-toolkit-cart',
+    description: "Built by reactjs components and redux toolkit comprises of Redux store, dispatch, reducer, actions and updating state in the store again.",
+    technology: "Reactjs components, Redux-toolkit",
+    link: 'https://github.com/mohanraj-exe/redux-toolkit-cart/',
   },
   {
     id: 5,
@@ -67,11 +67,11 @@ const own_projects = [
   },
   {
     id: 6,
-    name: 'Portfolio-website',
-    description: "Written by ReactJs to showcase the list of projects done in a 'previous company and on recent own'",
-    technology: "ReactJs",
-    link: 'https://mohanrajs-portfolio-site.netlify.app/',
-  },
+    name: 'Color-flipper',
+    description: "Written Basic HTML, CSS and Vanilla Js code to display basic and dynamic hex colors. These hex colors are dynamically created by basic numbers '0' to '9' and alphabets from 'a' to 'f' initializing it an array and adding Js functionalities to create one and append it in a html element for displaying.",
+    technology: "Vanilla Javascript, HTML, CSS",
+    link: 'https://color-flipper-html-dom-vanillajs.netlify.app/',
+  }
 
   // Add more projects as needed
 ];
@@ -153,7 +153,7 @@ const App = () => {
                   <p className='project-description'>{project.description}</p>
                   <span style={{ fontWeight: "bold" }}>Technologies used:</span>
                   <p>{project.technology}</p>
-                  <Button variant="success" href={project.link} target="_blank" rel="noopener noreferrer">
+                  <Button variant="success" href={project.link} target="_blank">
                     View Project
                   </Button>
                 </div>
@@ -178,7 +178,7 @@ const App = () => {
                   <p className='project-description'>{project.description}</p>
                   <span style={{ fontWeight: "bold" }}>Technologies used:</span>
                   <p>{project.technology}</p>
-                  <Button variant="success" href={project.link} target="_blank" rel="noopener noreferrer">
+                  <Button variant="success" href={project.link} target="_blank">
                     View Project
                   </Button>
                 </div>
@@ -212,7 +212,7 @@ const App = () => {
 
       <footer className="rb-footer">
         <Container>
-          <p>&copy; 2023 Mohanraj S</p>
+          <p>&copy; 2024 Mohanraj S</p>
         </Container>
       </footer>
     </Container>
