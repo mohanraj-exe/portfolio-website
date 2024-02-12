@@ -207,6 +207,16 @@ const App = () => {
               https://www.linkedin.com/in/mohanraj-s-b71797b9/
             </a>
           </li>
+          <li>
+            Github:{' '}
+            <a
+              href="https://github.com/mohanraj-exe"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              https://github.com/mohanraj-exe
+            </a>
+          </li>
         </ul>
       </Container>
 
